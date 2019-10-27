@@ -67,7 +67,7 @@ def save_lec_info(new_lecture_info):
 def send_email(new_lecture_info):
     mail_host = 'smtp.qq.com'
     mail_user = '1093656867@qq.com'
-    mail_pass = 'nqfqsjgooqtrhgaj'
+    mail_pass = 'your own pass code'
     sender = '1093656867@qq.com'
     receivers  = ['1093656867@qq.com']
     message = MIMEText('\n'.join(new_lecture_info), 'plain', 'utf-8')
